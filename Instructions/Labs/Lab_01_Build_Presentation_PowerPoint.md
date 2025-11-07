@@ -12,13 +12,13 @@ Throughout this Lab, we'll craft prompts for Microsoft 365 Copilot that referenc
 
 #### Exercise 1 - Create a new presentation based on a Word document
 
-1. Open PowerPoint using the desktop application or from your browser at [powerpoint.new](https://powerpoint.new) and start a new presentation.
+1. Open PowerPoint from your browser at [powerpoint.new](https://powerpoint.new) and start a new presentation.
 
-1. Select the **Copilot** icon, then use Copilot to generate a draft presentation using the following prompt:
+1. Select the **Copilot** on-screen option, then select **Create a new presentation with file** from the menu to generate a draft presentation.
 
-    +++Create a presentation about Contoso's Chai Tea based on+++
+1. In the prompt dialog box that appears, select **Reference files**. Select the file **(Promotion Plan for Chai Tea in Latin America.docx)**. If the file doesn't populate in the list, select the up arrow icon then **Attach cloud files**. Navigate to **My files** and select the document from your OneDrive folder.
 
-1. In the prompt dialog box, enter a forward slash (/) followed by the name of the file **(Promotion Plan for Chai Tea in Latin America.docx)**. If the file doesn't populate in the list, select the plus button then **Attach**. Navigate to **My files** and select the document from your OneDrive folder.
+1. Select the right arrow **(Send)** button to submit your prompt.
    
 1. Copilot displays a presentation outline showing the potential slides and bulleted points to be included on each slide. Review the suggested topic and select **Generate slides** to continue. Copilot generates slides and content for each. The presentation may display results in either the **Slide Sorter** or **Normal** view.
 
@@ -44,9 +44,9 @@ Because this presentation will be given both in-person and virtually, let's give
 
 1. Enter the following prompt:
 
-    +++Use question 1 as the icebreaker, and generate a slide that includes a complementary image. Insert this slide as the first slide in the presentation.+++
+    +++Use question 1 as the icebreaker, and generate a slide that includes a complementary image.+++
 
-    Now, you've got a great way to start a conversation among your meeting participants. Let's look at the presentation now, and see how we can make it even more powerful.
+1. Copilot generates the content for you to insert. Create a blank slide after the title slide, then select the plus **(+)** button in Copilot's response to insert the content onto your slide.  Now, you've got a great way to start a conversation among your meeting participants. Let's look at the presentation in its current state, and see how we can make it even more powerful.
 
 #### Exercise 3 - Insert an image
 
@@ -58,12 +58,10 @@ While Copilot includes images as it creates slides, you may want to add or edit 
 
 1. Enter the following prompt in the Copilot pane:
 
-    +++Replace the image on the Title slide with an image of a person sipping a warm cup of tea.+++
+    +++Create three image options for the Title slide, featuring a person sipping a warm cup of tea.+++
 
     > [!NOTE]
     > Feel free to experiment with your own prompt to generate an image  you think would work best for the presentation. The more details you provide, the better.
-
-1. Copilot opens the **Designer** feature and creates and displays an image that matches your request.
 
 1. Once the options are shown, select to **Insert** your choice.
 
@@ -91,17 +89,18 @@ As you're reviewing the presentation, you may find that the topics in your prese
 
     +++Organize this presentation.+++
 
-1. Copilot responds, providing suggestions for each slide. You can select to update the content as you'd like or iterate your prompt to receive additional suggestions. 
+1. Copilot responds, providing suggestions for each slide. You can select to update the content as you'd like or iterate your prompt to receive additional suggestions.
 
 1. Ensure that your presentation has a logical sequence and smooth transitions between slides.
+1. Save your presentation.
 
 #### (Optional) Exercise - Send a draft for review
 
 Once you're satisfied with your presentation, use Copilot in Outlook to draft an email to your manager for review.
 
-1. Launch Microsoft Outlook from your browser [outlook.office.com](https://outlook.office.com) or desktop application and select **New mail**.
+1. Launch Microsoft Outlook from your browser [outlook.office.com](https://outlook.office.com) and select **New mail**.
 
-1. Select the **Copilot** icon in the email composition window.
+1. Select the **Draft with Copilot** icon in the email composition window.
 
 1. Enter the following prompt:
 
@@ -109,7 +108,7 @@ Once you're satisfied with your presentation, use Copilot in Outlook to draft an
 
 1. Select **Draft with Copilot**.
 
-1. Review the email draft, make any necessary edits, and send it to your intended recipient.
+1. Review the email draft, make any necessary edits, attach your presentation, and send it to your intended recipient.
 
 And just like that, you're all set to impress your manager with a polished presentation! Happy presenting.
 
