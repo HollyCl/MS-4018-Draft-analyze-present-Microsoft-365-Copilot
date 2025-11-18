@@ -22,7 +22,7 @@ To get an idea of market trends, you must first understand  the overall performa
 
     +++Summarize the dataset and provide an overview of the key metrics.+++
 
-    Copilot responds with a detailed set of important takeaways, essentially an executive summary, of the data. It shows patterns and interpretations of the data, and recommended next steps. From this response, you can prompt Copilot to
+    Copilot responds with a detailed set of important takeaways, essentially an executive summary, of the data. It shows patterns and interpretations of the data, and recommended next steps. From this response, you can prompt Copilot to:
 
     +++Create a table showing the key patterns in the data.+++
 
@@ -42,7 +42,7 @@ As a sales manager, you need to identify trends in the sales data to make inform
 
     +++Show a line chart of Total Chai Sales (units) over the months.+++
 
-1. Review Copilot's response, and if you want, add the line chart to a new sheet.
+1. Review Copilot's response, which includes both the chart and text summary, and if you want, add the line chart to a new sheet.
 
 1. If you added the line chart, review the chart then return to Sheet 1.
 
@@ -56,7 +56,7 @@ To optimize your product offerings, you need to compare the sales of different c
 
     +++Create a bar chart comparing Artisanal Chai Sales (units) and Premade Chai Sales (units) for each month.+++
 
-1. Copilot displays the bar chart. Select **Add to a new sheet**.
+1. Copilot displays the bar chart.  Note that Copilot also provides text insights in its response. Select **Add to a new sheet** to include the chart in your Excel workbook.
 
 1. Once you've reviewed the bar chart results, return to Sheet 1.
 
@@ -77,21 +77,7 @@ Understanding the total sales is crucial for evaluating the success of your sale
 1. Select **Add to new sheet**.
 1. Review the total sales, then return to Sheet 1.
 
-#### Exercise 5 - Analyze social media engagement
-
-In today's digital age, social media engagement can significantly impact sales. Let's examine the relationship between social media engagement and chai sales to identify any correlations that can help boost sales.
-
-1. Continue in the opened Copilot pane.
-
-1. Determine if there's a correlation between online searches and chai sales by entering the following prompt:
-
-    +++Identify any correlations between Online Searches for Chai and Total Chai Sales (units).+++
-
-    Copilot generates a chart showing trends. Additionally, Copilot responds with detailed text indicating the correlation results and discussing practical implications allowing you instant insight to complicated sales data.
-
-1. Select **Add to new sheet** to include the visual insights to your table. Return to Sheet 1.
-
-#### Exercise 6 - Generate insights
+#### Exercise 5 - Generate insights
 
 Finally, let's summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
 
@@ -99,7 +85,7 @@ Finally, let's summarize the key insights from your analysis. These insights hel
 
     +++Provide a summary of the key insights from the analysis of the Contoso Chai Tea market trends data.+++
 
-#### Exercise 7 - Send your insights to the team
+#### Exercise 6 - Send your insights to the team
 
 Once you collect insights on market trends, you can share the information with your stakeholders. Here's how Copilot in Outlook can help you:
 
