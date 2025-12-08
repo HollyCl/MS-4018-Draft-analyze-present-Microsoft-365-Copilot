@@ -14,7 +14,7 @@ Throughout this Lab, we'll craft prompts for Microsoft 365 Copilot that referenc
 
 To get an idea of market trends, you must first understand  the overall performance of Contoso's Chai products. Your first step is to get an overview of the data and identify key metrics that can guide your analysis.
 
-1. Open the sample file you uploaded to your OneDrive.
+1. Open the sample file (Contoso Chai Tea market trends 2023.xlsx) you uploaded to your OneDrive.
 
 1. Select the dropdown menu from the **Copilot** icon on the **Home** tab. From there, select the **App Skills** option.
 
