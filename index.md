@@ -8,7 +8,7 @@ layout: home
 
 ## Course Description
 
-This course directs users to learn common prompt flows in Microsoft 365 apps including PowerPoint, Word, Excel, Teams, and Outlook. It also introduces Microsoft 365 Copilot Chat and discusses the difference between work and web grounded data.
+This course directs users to learn common prompt flows in Microsoft 365 apps including PowerPoint, Word, Excel, Teams, and Outlook. It also introduces Microsoft 365 Copilot Chat and discusses the difference between work and web grounded data. These exercises are based on the content included in the Learning Path titled [Draft, analyze, and present with Microsoft 365 Copilot](https://learn.microsoft.com/en-us/training/paths/draft-analyze-present-microsoft-365-copilot/) available on [Microsoft Learn](https://learn.microsoft.com/).
 
  **Note**: To complete these exercises, you must choose an appropriate Microsoft 365 Copilot plan:
  - **For individuals:**
