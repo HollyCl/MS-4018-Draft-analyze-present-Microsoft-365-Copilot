@@ -4,21 +4,24 @@ permalink: index.html
 layout: home
 ---
 
-# Exercises
+# MS-4018: Draft, analyze, and present with Microsoft 365 Copilot
 
-This page lists exercises associated with Microsoft skilling content on [Microsoft Learn](https://learn.microsoft.com)
+## Course Description
 
-<!-- You can edit the paragraph above to provide a more specific description and links to content on Learn.
+This course directs users to learn common prompt flows in Microsoft 365 apps including PowerPoint, Word, Excel, Teams, and Outlook. It also introduces Microsoft 365 Copilot Chat and discusses the difference between work and web grounded data. These exercises are based on the content included in the Learning Path titled [Draft, analyze, and present with Microsoft 365 Copilot](https://learn.microsoft.com/en-us/training/paths/draft-analyze-present-microsoft-365-copilot/) available on [Microsoft Learn](https://learn.microsoft.com/).
 
-Include the following note if an Azure subscription is required (or add something similar for any other requirements, such as a Microsoft 365 account).
+ **Note**: To complete these exercises, you must choose an appropriate Microsoft 365 Copilot plan:
+ - **For individuals:**
+    - To use Copilot features in Microsoft 365 apps, customers must purchase a Microsoft 365 Personal or Family subscription and be signed into their Microsoft account.
+  - **For business and enterprise customers:**
+    - Microsoft 365 Copilot Chat is available at no extra cost for Microsoft 365 business and enterprise customers.
+    - To purchase Microsoft 365 Copilot, customers must have a qualifying Microsoft 365 plan for enterprise or business. For more information, see the eligibility prerequisites question in the FAQ section of the following sites: Microsoft 365 Copilot for [enterprise](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise#FAQ) or [business](https://www.microsoft.com/en-us/microsoft-365-copilot/business#FAQ).
 
-> **Note**: To complete these exercises, you will need a [Microsoft Azure subscription](https://azure.microsoft.com/free) in which you have sufficient permissions to create and configure the required resources.
+## Exercises
 
-If a more complex setup is required, create a separate markdown file with setup instructions at \Instructions\Labs\00-setup.md - being sure to include "lab.title"" metadata at the top so it shows up the list below
--->
-
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-{% for activity in labs  %}
-- [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
-{% endfor %}
-
+- [Setup](Instructions/Labs/Lab_00_setup.md)
+- [Lab 1 - Build a presentation from start to finish with Copilot in PowerPoint](Instructions/Labs/Lab_01_Build_Presentation_PowerPoint.md)
+- [Lab 2 - Draft, improve, and share your document with Copilot in Word](Instructions/Labs/Lab_02_Write_Document_Word.md)
+- [Lab 3 - Manage collaboration from start to finish](Instructions/Labs/Lab_03_Collaborate_with_Teams.md)
+- [Lab 4 - Boost your productivity with data-driven decisions with Copilot in Excel](Instructions/Labs/Lab_04_Boost_Productivity_Excel.md)
+- [Lab 5 - Ace your interview with Copilot Chat](Instructions/Labs/Lab_05_Unleash_Productivity_Copilot_Chat.md)
