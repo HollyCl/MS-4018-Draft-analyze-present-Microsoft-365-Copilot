@@ -3,7 +3,7 @@ title: Exercise Instructions
 permalink: index.html
 layout: home
 ---
-
+TEST
 # Exercises
 
 This page lists exercises associated with Microsoft skilling content on [Microsoft Learn](https://learn.microsoft.com)
