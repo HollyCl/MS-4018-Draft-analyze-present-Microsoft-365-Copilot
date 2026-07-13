@@ -1,110 +1,86 @@
----
-lab:
-  title: 'Lab 2: Build a presentation from start to finish with Copilot in PowerPoint'
-  description: Microsoft 365 Copilot – Explore how Copilot in PowerPoint can be used to help you build a presentation from start to finish.
-  level: Lab 100
-  duration: '30'
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Lab 2 - Build a presentation from start to finish with Copilot in PowerPoint
 
-Imagine you're a marketing manager at a company called Contoso. Your team is preparing for an important client meeting where you need to present the company's strategy for a new Chai Tea product line to be sold in Latin America Your goal is to create a compelling presentation that highlights the product's features, benefits, and use cases, while ensuring it adheres to the company's branding standards. You've already developed a business plan for this product and want to use that content when preparing for your meeting. You need to collaborate with your team and get the presentation reviewed by your manager before the meeting.
+Imagine you're a senior marketing manager at Contoso. Your team is preparing for an executive meeting where you need to present the company's strategy for a new Chai Tea product line to be sold in Latin America. Your audience includes regional vice presidents and a CFO who expects data-backed recommendations. You have a business plan and a separate market research report to draw from. Your goal is to produce a polished, data-informed presentation efficiently without starting from scratch.
 
-By the end of this Lab, you'll be able to create a new presentation, based on a Word document, insert an image, edit text, organize the presentation, incorporate corporate branding standards, and send the draft presentation to your manager for review using Copilot in PowerPoint.
+By the end of this lab, you plan a narrative with Idea Coach, create a presentation from two source files with specific output parameters, generate and refine speaker notes for a CFO audience, use the Explain feature to review a chart, and complete a final coaching pass with Copilot in PowerPoint.
 
-### Sample file
+### Sample files
 
-Throughout this Lab, we'll craft prompts for Microsoft 365 Copilot that reference this file. You should have already uploaded it to OneDrive during the lab setup process, but if you need to download it again, you can do so here:
+Throughout this lab, you craft prompts that reference these files. Download both files and save them to your OneDrive folder before you continue.
 
-[Promotion Plan for Chai Tea in Latin America.docx](https://go.microsoft.com/fwlink/?linkid=2269126)
+- [Promotion Plan for Chai Tea in Latin America.docx](https://go.microsoft.com/fwlink/?linkid=2269126)
+- [Market Analysis Report for Mystic Spice Premium Chai Tea.docx](https://go.microsoft.com/fwlink/?linkid=2268826)
 
-#### Exercise 1 - Create a new presentation based on a Word document
+> [!NOTE]
+> If either file hasn't synced to your OneDrive yet, wait a few minutes and refresh the file picker. You can start the planning step while you wait.
 
-1. Open PowerPoint from your browser by opening the Edge browser and entering +++https://powerpoint.new+++.
+#### Exercise 1 - Plan your narrative with Idea Coach
 
-1. On the **Home** tab of the ribbon, select **Copilot** (on the right side), then select **Create a presentation about topic** from the Copilot pane generate a draft presentation.
+Before you open PowerPoint, use Idea Coach to define your narrative. A focused planning prompt now produces a stronger first draft and requires less revision later.
 
-1. In the Copilot pane, select the **+** button, then select the **Promotion Plan for Chai Tea in Latin America.docx** file from the list. Alternatively, type `/` followed by the first few letters of the file name in the prompt field to search for it. If the file doesn't appear, wait a moment for your files to sync, refresh the browser, then try again.
+1. Open the **Microsoft 365 Copilot app** by navigating to +++https://m365.cloud.microsoft+++. Select **Idea Coach** from the left navigation pane. If it doesn't appear, select **More agents**, search and add it.
 
-1. Select the **Send** button to submit your prompt.
+1. Enter the following prompt:
 
-1. If prompted, Copilot displays a series of clarifying questions. Select the number of slides, the desired tone, the target audience or whether to include visual data elements, selecting **Next** after each choice and **Confirm** after the last.
+    +++I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.+++
 
-1. Copilot generates slides and content based on the document. Review the slides in the slide panel. The presentation may display in either the **Slide Sorter** or **Normal** view. To switch views, select the **View** tab.
+1. Review the key messages and narrative structure Idea Coach returns. Keep this output visible so you can reference it when writing your creation prompt.
 
-While this is a great start, you want to personalize the presentation a bit more for your delivery. Let's see how to improve the content.
+> [!NOTE]
+> Idea Coach doesn't create the deck for you. Idea Coach's strength comes in helping you develop your own ideas into actions. Continue to interact with Idea Coach until you find a good starting point.
 
-#### Exercise 2 - Ask Copilot to help you create an additional slide
+#### Exercise 2 - Create a presentation from multiple sources
 
-Since our audience includes individuals with varying levels of familiarity with our company and its offerings, let's add a slide that provides a brief history of chai tea.
+With your narrative plan ready, create the presentation by referencing both source files. Specifying your output parameters in the prompt means Copilot builds to your requirements from the start.
 
-1. If necessary, change the view to **Normal**. On the **View** tab, select **Normal**.
+1. Open a blank PowerPoint presentation from your browser by navigating to +++https://powerpoint.new+++.
 
-1. Return to the **Home** ribbon view.
+1. Select the **Copilot** icon in the bottom-right corner of the canvas.
+
+1. Enter the following creation prompt:
+
+    +++Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.+++
+
+1. Type `/` or select **+**, then **Add work content** to attach **Promotion Plan for Chai Tea in Latin America.docx**, then repeat to attach **Market Analysis Report for Mystic Spice Premium Chai Tea.docx**.
+
+1. If Copilot asks clarifying questions, answer using the key messages from your Idea Coach session.
+
+1. Review the generated slides.
+
+#### Exercise 3 - Generate and refine speaker notes
+
+Generate notes for every slide at once, then refine the CFO-facing slides for delivery.
+
+1. Enter the following prompt in the Copilot pane:
+
+    +++Generate speaker notes for all slides in this presentation. Keep the speaker notes professional and concise.+++
+
+1. Navigate to the slide that covers market opportunity or ROI data.
+
+1. Enter the following prompt:
+
+    +++Rewrite the speaker notes on this slide to sound authoritative and data-focused. I'm presenting market opportunity and return on investment figures to a CFO who asks hard questions. Help me project confidence and anticipate pushback.+++
+
+1. Review the revised notes.
+
+#### Exercise 4 - Review a chart with an explain prompt
+
+Your deck synthesizes data from two source files, which means some charts or tables may include figures you didn't write yourself. Use Copilot to understand the data before you present it.
+
+1. Navigate to a slide that contains a chart and enter the following prompt in the Copilot pane:
+
+    +++Explain the content in this chart so I can more easily understand and discuss the content as I present it to leadership.+++
+
+1. Review Copilot's plain-language breakdown of what the chart shows, what the data means in context, and how it fits the narrative of the surrounding slide.
+
+#### Exercise 5 - Run a final coaching pass
+
+Before you wrap up, ask Copilot to surface any remaining issues across the full deck.
 
 1. In the Copilot pane, enter the following prompt:
 
-     +++Can you provide a brief history of chai tea?+++
+    +++Give me improvement tips for this presentation, both overall and slide by slide. Focus on narrative coherence, clarity of the executive message, and any slides where the data could be better supported.+++
 
-     Copilot responds with a great summary of the history of chai tea, sourced from public web sites.
-
-     Copilot Chat is great for asking questions, summarizing or researching (web/work) information, but it does not have the capability to edit/shape our presentation.
-
-1. Navigate to the first slide. On the **Home** tab, select the **New slide with Copilot** icon next to **New Slide**.
-
-1. In the copilot chat pane, add the following context:
-
-    +++the history of chai tea.+++
-
-1. If prompted, Copilot displays clarifying questions about the slide content. Select your preferred option for each question, then select **Confirm** after the last.
-
-1. Review the slide Copilot generated.
-
-Now you've added depth to your presentation, and it's a great way to increase interest from your meeting participants. Let's look at the presentation now, and see how we can make it even more powerful.
-
-#### Exercise 3 - Insert an image
-
-While Copilot includes images as it creates slides, you may want to add or edit an image to be more specific to your presentation. You can ask Copilot to include an image from your approved corporate library, provided your administrator has set the appropriate configurations, or generate an image based on an idea you have.
-
-1. Let's ask Copilot Chat to create a new image.
-
-1. Enter the following prompt in the Copilot Chat pane:
-
-    +++Create an image featuring a person sipping a warm cup of tea.+++
-
-    > [!NOTE]
-    > Feel free to experiment with your own prompt to generate an image  you think would work best for the presentation. The more details you provide, the better.
-
-1. If prompted, Copilot asks where to place the image in the presentation. Select **History slide (slide 2)**, then select **Confirm**.
-
-#### Exercise 4 - Edit the text
-
-As you're reviewing the presentation, you may decide the text Copilot generated isn't right for you. Use Copilot to help you refine the text on your slides. For instance, you can type *Edit the text on this slide to make it more concise* or *Make this text more engaging for the reader* Let's see how:
-
-1. Navigate to the slide containing the text you may want to edit.
-
-1. Select the text box to modify, then select the Copilot (pen) icon next to it. Enter the following prompt in the dialog that appears:
-
-    +++Expand this text to include additional details.+++
-
-1. Review the suggestions provided by Copilot, then select **Keep it** to update the selected text.
-
-#### Exercise 5 - Organize the presentation
-
-As you're reviewing the presentation, you may find that the topics in your presentation need to be more clearly identified. You can use Copilot in PowerPoint to inject this clarity.
-
-1. In the Copilot chat pane, select the mode dropdown and select
-   **Chat only**. Select the **Work** tab, then enter the following
-   prompt:
-
-    +++Give me tips to improve my presentation, both in general and slide-by-slide.+++
-
-1. Copilot responds, providing general suggestions along with suggestions for each slide. You can use these tips to either manually modify the content in your deck, or use the in-app Copilot features you've explored in this exercise to improve your presentation.
-
-And just like that, you've all set to impress with a polished presentation.
+1. Review Copilot's response and apply any changes using the Copilot features you practiced in this lab.
 
 **End of Lab**

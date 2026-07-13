@@ -1,74 +1,116 @@
----
-lab:
-  title: 'Lab 4: Manage collaboration from start to finish'
-  description: Microsoft 365 Copilot – Learn how Copilot in Outlook can help you manage collaboration with your team.
-  level: Lab 100
-  duration: '30'
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Lab 4 - Manage collaboration from start to finish
 
-Imagine you're a manager at Contoso. Your team relies on effective communication to collaborate and achieve goals. You want to rally the team behind a new idea for the Contoso Connect product launch, and need to send a message to your team about how to incorporate this idea before the product launch deadline. Use Copilot to draft, rewrite, and adjust your message to ensure it's clear, concise, and professional. Then, use Copilot in Outlook to schedule your meeting.
+Imagine you're a product manager at Contoso. Your team is preparing for the Contoso Connect product launch. You need to align the team on priorities, build context from channel conversations, and schedule a structured planning meeting. In this lab, you use Copilot in Teams and Outlook to prepare before the meeting ever starts.
 
-#### Exercise 1 - Write an engaging message to introduce your idea
+> [!IMPORTANT]
+> To complete this lab, you must have a Microsoft 365 Copilot license and access to Microsoft Teams and Outlook. All parts can be completed fully in the online apps without joining or starting a live meeting.
 
-1. Open Microsoft Teams by navigating to the following URL +++https://teams.cloud.microsoft+++.
+#### Exercise 1 - Draft and refine a channel message
 
-1. To start, create a new Team in your team's chat for this conversation. Select **Create Team** from the Chat dropdown menu.
+Before scheduling the meeting, you want to share context and set expectations with your team in the project channel.
 
-    - Add the Team:  +++People and Culture+++
+1. Open Microsoft Teams by navigating to +++https://teams.cloud.microsoft+++.
+
+1. Create a new team for this lab. Select **New Team** from the **Chat** dropdown menu and configure it as follows:
+    - Team name: +++Contoso Connect Launch+++
     - Description: leave blank
     - Team Type: **Private**
-    - First channel name: +++Contoso Connect+++
+    - First channel name: +++Launch Planning+++
 
-1. Select **Create**, then when prompted to add members select **Skip**.
+1. Select **Create**, then select **Skip** when prompted to add members.
 
-1. Select **Post in channel** to open the message window.
+1. Select **Post in channel** to open the message composer in the **Launch Planning** channel.
 
-1. Write your message in the box at the bottom of the chat or channel. Copy and paste the following text into the dialog box:
+1. Paste the following text into the message box:
 
-   +++Hi Team! I've been thinking about Contoso Connect, and how we can make the product launch more exciting for our customers. I have a couple of ideas, and want to hear more from each of you. What do you think would make our customers excited and ready to work with Connect?+++
+    +++Hi team! As we gear up for the Contoso Connect product launch, I want to make sure we're all aligned on priorities. I have a few ideas to share and I'd love to hear your thoughts on what will resonate most with our customers.+++
 
-1. Before you post the message, select the **Rewrite with Copilot** icon at the bottom of the message box.
+1. Before posting, select the **Rewrite with Copilot** icon below the message box.
 
-1. Choose the **Rewrite** option to generate another version of your message that improves its grammar and style. You can rewrite your message up to 10 times, each time generating a new version. Use the left and right arrows below the text to navigate through versions.
+1. Select **Rewrite** to generate an improved version. Use the left and right arrows to review alternate versions.
 
-1. While this message is adequate, it lacks the enthusiasm you're trying to convey.
+1. Select **Adjust**, then choose **Make it sound enthusiastic** to change the tone.
 
-1. Select **Adjust** then select from the options Copilot presents to edit and update your message. You can customize the message if it's still not right.
+1. Select **Custom** and enter the following instruction:
 
-1. Select **Custom** from the **Adjust** option. Try custom tones like +++instructive+++ or +++engaging+++. Select the right arrow button to submit the change.
+    +++Make this sound energizing and forward-looking for a product team.+++
 
-1. Select **Replace** when you're satisfied with the new message. If you selected a partial section, only that text updates.
+1. When you're satisfied with the result, select **Replace**, then select **Post**.
 
-1. Once you replace the original message, select **Post**.
+#### Exercise 2 - Build channel context and summarize the thread
 
-The team receives your message and is excited to contribute! Everyone contributes ideas and discusses potential issues in the Teams chat.
+Copilot can summarize a channel thread to help you catch up on what was discussed. In this exercise, you'll add a few messages to build some context, then use Copilot to get a quick overview.
 
-#### Exercise 2 - Schedule a meeting in Outlook
+1. With the **Launch Planning** channel still open, post two or three additional messages to build out the thread. For example:
 
-You now want to schedule a meeting to brainstorm some feedback with your team. You can use Copilot in Outlook to find the best time based on your team's availability, and draft the body of the meeting invite to include the key points you prompted Copilot to answer from your meeting chat.
+    - +++One idea is running a live demo event for our top enterprise customers.+++
+    - +++Early access pricing worked well for our last launch — we should revisit that.+++
+    - +++I'll reach out to marketing about the collateral timeline. Can someone check on demo environment availability?+++
 
-1. Open Microsoft Outlook from your browser by entering +++https://outlook.office.com+++.
+1. After posting the messages, select the **Copilot** icon at the top of the channel thread.
 
-1. Select the **Copilot** icon from the **Home** ribbon to open the Copilot pane.
+1. Enter the following prompt:
 
-1. Ask Copilot to help you draft an invite for the meeting by entering the following prompt:
+    +++What ideas and open questions came up in this thread?+++
 
-    +++Draft a meeting invitation to discuss the upcoming product launch, review the project timeline, and assign tasks.+++
+1. Review the summary. Notice the numbered citations next to each statement — select one to jump to the source message in the thread.
 
-1. Copilot creates a draft of the meeting invite. Review the suggestion then enter the following prompt:
+1. Enter a follow-up prompt:
 
-    +++Rewrite this email in a professional tone.+++
+    +++Create a short list of discussion topics I could use as a meeting agenda.+++
 
-1. Review Copilot's suggestion. You can then select to **Edit and send**.
+    Keep this list handy. You'll use it in the next exercise.
 
-After you've created your draft, you can continue to prompt Copilot assist you in scheduling the meeting based on your availability next week. Copilot suggests several time slots. You can select the time that best works.  Copilot adds the meeting to your calendar. You can then access the meeting details from you calendar and invite attendees, turn on the Facilitator for the meeting, and allow Copilot to reschedule the meeting if conflicts arise.
+#### Exercise 3 - Schedule a meeting with Facilitator enabled
 
-By using Copilot in Team's capabilities, you can effortlessly draft, rewrite, and adjust messages, gather insights from team chats, and schedule meetings efficiently. Now, you can confidently use these tools to streamline your workflow and achieve your collaboration goals with ease.
+Now you'll create the meeting invite in Outlook, add an agenda, and turn on Facilitator so the meeting is set up to run effectively.
+
+1. Open Microsoft Outlook from your browser by navigating to +++https://outlook.office.com+++.
+
+1. Open **Calendar** and select **New event**.
+
+1. Add a title such as +++Contoso Connect Launch Planning+++ and set a time for later today or tomorrow.
+
+1. Make sure **Teams meeting** is toggled on.
+
+1. In the meeting description, type a short agenda using the topics Copilot surfaced in Exercise 2. For example:
+
+    +++Agenda: Customer engagement ideas (10 min), Launch timeline review (15 min), Demo environment check (5 min), Task assignments (10 min), Wrap-up (5 min)+++
+
+    > [!TIP]
+    > You can also let Copilot draft this for you. In the event form, open the Copilot pane and enter: *Draft a meeting description for a product launch planning session covering customer engagement ideas, timeline review, and task assignments.*
+
+1. Select **More options** to open the full event form, then select **Meeting options**.
+
+1. Under **Copilot and other AI**, confirm **Allow Copilot and Facilitator** is set to **During and after the meeting**.
+
+1. Turn on the **Facilitator** toggle, then select **Apply**.
+
+1. Send the invite.
+
+    When at least one non-organizer participant joins the meeting, Facilitator automatically posts the agenda to the meeting chat and displays a timer on the meeting stage.
+
+#### Exercise 4 - Prepare for the meeting in Outlook
+
+With the invite sent, use Copilot to review context and get ready before you join.
+
+1. Open the meeting event from your Outlook calendar.
+
+1. Look for the **Prepare for this meeting** section near the top of the event form. Select **Show more** to see the summary Copilot has assembled from related emails, documents, and chat history.
+
+    > [!NOTE]
+    > In a fresh environment with no prior email history or shared files connected to this meeting, this section may show limited results. That's expected — the summary improves as more context accumulates over time.
+
+1. Select one of the suggested prompts, or enter your own in the Copilot chat pane:
+
+    +++What should I know about the agenda or attendees before this meeting?+++
+
+1. Enter a follow-up prompt:
+
+    +++Draft a brief opening statement I can use to kick off the meeting.+++
+
+1. Review the response. Notice how Copilot draws on the meeting title, description, and available context to generate a relevant result.
+
+You've used Copilot to draft and refine a channel message, summarize a thread, schedule a meeting with Facilitator enabled, and prepare for the session in Outlook — covering the key steps in the pre-meeting workflow.
 
 **End of Lab**

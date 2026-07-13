@@ -1,25 +1,13 @@
----
-lab:
-  title: 'Lab 3: Draft, improve, and share your document with Copilot in Word'
-  description: Microsoft 365 Copilot – Use Copilot in Word to create, edit, and share a document.
-  level: Lab 100
-  duration: '30'
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Lab 3 - Draft, improve, and share your document with Copilot in Word
 
-Imagine you're a project manager tasked with creating a comprehensive project report for your company's new Mystic Spice Premium Chai Tea. In this Lab, you use Microsoft Word to draft the report, convert text to a table for easier readability, and summarize your document to ensure clear, concise content.
+Imagine you're a project manager tasked with creating a comprehensive project report for your company's new Mystic Spice Premium Chai Tea. In this lab, you use Copilot in Word to draft, edit, and refine the report, then use the Writing Coach agent to review the document before sharing.
 
-> [!NOTE]
-> While this Lab illustrates how information can flow from one Microsoft 365 app to another, you aren't required to do so. Each of these steps can be completed using Copilot in Word directly. Alternate steps are provided as necessary.
+> [!IMPORTANT]
+> To complete this lab, you need a Microsoft 365 Copilot (Premium) license and access to Microsoft Word. The sample file must be saved to your OneDrive account before you begin.
 
 ### Sample file
 
-Throughout this Lab, we'll craft prompts for Microsoft 365 Copilot that reference this file. You should have already uploaded it to OneDrive during the lab setup process, but if you need to download it again, you can do so here:
+Throughout this lab, you craft prompts that reference this file. Download it and save it to your OneDrive folder before you continue.
 
 [Market Analysis Report for Mystic Spice Premium Chai Tea.docx](https://go.microsoft.com/fwlink/?linkid=2268826)
 
@@ -29,74 +17,63 @@ Let's create a project report using the Market Analysis you've already gathered.
 
 1. Open a new Word document from your browser by entering +++https://word.new+++.
 
-1. Select the on-canvas **Copilot** experience at the top of the blank document.
+1. Select the on-canvas **Draft with Copilot** prompt box at the top of the blank document.
 
 1. Enter the following prompt:
 
     +++Create a project report that includes an executive summary, introduction, product description, project objectives, and discussion. Use the linked document as a content resource.+++
 
-1. Add the document reference to your prompt by manually entering a forward slash `/` to open the file search dialog, then search for and select **Promotion Plan for Chai Tea in Latin America.docx**. Alternatively, you can select **Add content** and the file from the dropdown list once it is available in OneDrive.
+1. Add the document reference by typing a forward slash followed by the document name: **/Market Analysis Report for Mystic Spice Premium Chai Tea.docx**. Select it from the dropdown list, or select **Files** to browse for the file.
 
-1. Select the right arrow to submit your prompt and **Generate** the response.
+1. Select **Generate** to submit your prompt.
 
 1. Review the drafted content and select **Keep it**.
 
-1. As you're reviewing the content of your document, you may find that some text needs to be edited or rewritten. The Product Description section seems to be fairly short, and technical. Let's edit the text so it's more engaging for our readers.
+#### Exercise 2 - Rewrite a section
 
-1. Highlight the paragraph, then select **Edit with Copilot** in the floating toolbar that appears.
+After reviewing your draft, you may find sections that need adjustment. The Product Description is a good candidate—it tends to be short and technical in a first draft.
 
-1. Select **Auto Rewrite** from the menu. Copilot generates several options. Review each, and select to:
+1. Select the Product Description paragraph(s). The **Copilot** icon appears in the left margin of your document — select it.
 
-    - **Replace** the current text with the one you prefer.
-    - **Insert below** the text to keep both.
-    - **Regenerate** the suggestions if you don't like any of the suggestions, you can select to regenerate them, and Copilot provides you three more options from which to choose.
-    - Enter text describing the update you're looking for in the **What do you want Copilot to change?** field.
+1. Enter the following prompt:
 
-1. Let's enter a specific prompt to get the results we want. In the **What do you want Copilot to Change** field, enter:
+    +++Rewrite the Product Description section to be more detailed and engaging for a senior business audience. Keep the tone professional.+++
 
-    +++Rewrite this paragraph to add more detail about the product. The tone of this paragraph should be professional and engaging.+++
+1. Review the rewritten text. Select **Replace** to swap the original paragraph with the revised version.
 
-1. Review the rewritten options, choose the one you most prefer, and select **Replace**.
+#### Exercise 3 - Convert text to a table
 
-#### Exercise 2 - Convert text to a table
+While the Project Objectives are listed, converting them into a table allows leaders to quickly see each objective, why it matters, how success will be measured, and where the team should focus.
 
-While the content in your document may be accurate, consider its readability. Would a section work better if it was presented as a table? Copilot can easily convert text into a table using a prompt.
+1. Navigate to the Project Objectives section so you can see the current format.
 
-Let's see this transformation in action.
+1. Enter the following prompt in the Copilot pane:
 
-1. Place your cursor at the end of the document.
+    +++Turn the Project Objectives section into a table with objectives, rationale, success metrics, target channels, and priority.+++
 
-1. Ask Copilot to +++Add a list of project milestones and their deadlines+++ using the **Draft with Copilot** pencil icon. Select **Generate**.
+1. Review the generated table and select **Keep it** to insert the table.
 
-1. Select **Keep it** to add the section to your Project Plan.
+1. Do not close your document. You'll copy text from it for the next exercise.
 
-1. Highlight the list, then select **Edit with Copilot** in the floating toolbar that appears.
+#### Exercise 4 - Polish with Writing Coach
 
-1. Select or type **Visualize as a table**. The result looks great, overall, but let's make sure there's a column for when the task is successfully completed.
+Before sharing your report, use the Writing Coach agent to review the quality of your writing.
 
-1. In the Copilot prompt box, enter the following prompt:
+1. Open the **Microsoft 365 Copilot app**.
 
-    +++Add a third column, Task Completed, to the table.+++
+1. In the **Agents** panel, select **Writing Coach**. If it doesn't appear, select **All agents** to search and add it.
 
-1. Select **Keep it** to insert the table into your document.
+1. Select a section of your Word document to review. The Executive Summary is a good starting point.
 
-1. Review the table format and make any necessary adjustments. You can then delete the bulleted list from the Project Milestones and Deadlines section.
+1. Enter a focused question in Writing Coach, then paste the text from your Word document:
 
-#### Exercise 3 - Summarize your document
+    +++Review this text for clarity and tone. Suggest specific improvements: [paste text]+++
 
-As you complete your document, you want to ensure that your key points are presented clearly. A good way to do this is to see a summary of the document. Likewise, should you receive a large Word document that you don't have time to read in its entirety, the summary feature is key. Let's create a summary at the end of our document.
+1. Review the feedback and apply the changes in your Word document.
 
-1. From the **Home** tab, select **Copilot** to open the Copilot pane, then enter the following prompt:
+> [!NOTE]
+> Writing Coach addresses one question at a time. Ask one focused question per prompt for the most useful feedback.
 
-    +++Summarize the Project Report Promotion Plan for Chai Tea in Latin America document. Highlight the top three points made.+++
-
-1. Review the generated summary, and select **Add to doc** (the plus sign below the output) if you want to include the entire summary in your document. You can also highlight any portion of the text, then copy and paste it into your document.
-
-> [!IMPORTANT]
-> The text Copilot generates is inserted at your cursor's location in the document. Make sure you have navigated to the end of the document before you select to insert the content.
-
-You can manually make adjustments to the text, or highlight the summary content and use Copilot to **Auto Rewrite**  as needed. You can also use this summary as the starting point to a Teams or Outlook message when you share your project report with your stakeholders.
-
-Save your document for future reference. You're ready to share for review, or you can use this document as the starting point for a PowerPoint presentation.
+1. Save your document. It's ready to share for review, or use it as source material for a PowerPoint presentation.
 
 **End of Lab**
