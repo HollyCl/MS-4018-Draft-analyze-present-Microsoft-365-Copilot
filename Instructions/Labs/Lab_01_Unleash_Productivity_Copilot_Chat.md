@@ -13,7 +13,7 @@ Use Copilot Chat to gather information about the interviewer and their role at t
 
 1. Select **New chat** and start a conversation in the chat area.
 
-1. Enter the following prompt, replacing the placeholders with actual values from your company:
+1. Enter the following prompt, replacing the placeholders with values from your company:
 
     +++Find information about [Interviewer's Name] and their role at [Company Name].+++
 

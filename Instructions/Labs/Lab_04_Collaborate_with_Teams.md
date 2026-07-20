@@ -25,17 +25,17 @@ Before scheduling the meeting, you want to share context and set expectations wi
 
     +++Hi team! As we gear up for the Contoso Connect product launch, I want to make sure we're all aligned on priorities. I have a few ideas to share and I'd love to hear your thoughts on what will resonate most with our customers.+++
 
-1. Before posting, select the **Rewrite with Copilot** icon below the message box.
+1. Before posting, select the  Pen (**Rewrite with Copilot**) icon below the message box.
 
 1. Select **Rewrite** to generate an improved version. Use the left and right arrows to review alternate versions.
 
 1. Select **Adjust**, then choose **Make it sound enthusiastic** to change the tone.
 
-1. Select **Custom** and enter the following instruction:
+1. Select **Adjust**, then choose **Custom** and enter the following instruction:
 
     +++Make this sound energizing and forward-looking for a product team.+++
 
-1. When you're satisfied with the result, select **Replace**, then select **Post**.
+1. Notice that Copilot proivides each update as its own option. Scroll through and determine which version of the response you most like, and When you're satisfied with the result, select **Replace**, then select **Post**.
 
 #### Exercise 2 - Build channel context and summarize the thread
 
@@ -80,26 +80,26 @@ Now you'll create the meeting invite in Outlook, add an agenda, and turn on Faci
     > [!TIP]
     > You can also let Copilot draft this for you. In the event form, open the Copilot pane and enter: *Draft a meeting description for a product launch planning session covering customer engagement ideas, timeline review, and task assignments.*
 
-1. Select **More options** to open the full event form, then select **Meeting options**.
+1. Select **Options** to open the full event form.
 
-1. Under **Copilot and other AI**, confirm **Allow Copilot and Facilitator** is set to **During and after the meeting**.
+2. Under **Copilot and other AI**, confirm **Allow Copilot** is set to **During and after the meeting**.
 
-1. Turn on the **Facilitator** toggle, then select **Apply**.
+3. Turn on the **Facilitator** toggle, then select **Apply**.
 
-1. Send the invite.
+4. Save the invite.
 
     When at least one non-organizer participant joins the meeting, Facilitator automatically posts the agenda to the meeting chat and displays a timer on the meeting stage.
 
 #### Exercise 4 - Prepare for the meeting in Outlook
 
-With the invite sent, use Copilot to review context and get ready before you join.
+With the event created, use Copilot to review context and get ready before you join.
 
 1. Open the meeting event from your Outlook calendar.
 
 1. Look for the **Prepare for this meeting** section near the top of the event form. Select **Show more** to see the summary Copilot has assembled from related emails, documents, and chat history.
 
     > [!NOTE]
-    > In a fresh environment with no prior email history or shared files connected to this meeting, this section may show limited results. That's expected — the summary improves as more context accumulates over time.
+    > In a fresh environment with no prior email history or shared files connected to this meeting, this section may show limited or even no results. That's expected — the summary improves as more context accumulates over time. If no results exist, you can consider this lab complete at this time.
 
 1. Select one of the suggested prompts, or enter your own in the Copilot chat pane:
 

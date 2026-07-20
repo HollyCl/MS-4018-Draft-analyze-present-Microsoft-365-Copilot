@@ -2,9 +2,6 @@
 
 Imagine you're a project manager tasked with creating a comprehensive project report for your company's new Mystic Spice Premium Chai Tea. In this lab, you use Copilot in Word to draft, edit, and refine the report, then use the Writing Coach agent to review the document before sharing.
 
-> [!IMPORTANT]
-> To complete this lab, you need a Microsoft 365 Copilot (Premium) license and access to Microsoft Word. The sample file must be saved to your OneDrive account before you begin.
-
 ### Sample file
 
 Throughout this lab, you craft prompts that reference this file. Download it and save it to your OneDrive folder before you continue.
@@ -17,7 +14,7 @@ Let's create a project report using the Market Analysis you've already gathered.
 
 1. Open a new Word document from your browser by entering +++https://word.new+++.
 
-1. Select the on-canvas **Draft with Copilot** prompt box at the top of the blank document.
+1. Select the on-canvas **Describe what you'd like to draft with Copilot** prompt box at the top of the blank document.
 
 1. Enter the following prompt:
 
@@ -25,21 +22,21 @@ Let's create a project report using the Market Analysis you've already gathered.
 
 1. Add the document reference by typing a forward slash followed by the document name: **/Market Analysis Report for Mystic Spice Premium Chai Tea.docx**. Select it from the dropdown list, or select **Files** to browse for the file.
 
-1. Select **Generate** to submit your prompt.
+1. Select  the arrow (**Generate**) to submit your prompt.
 
-1. Review the drafted content and select **Keep it**.
+1. Review the drafted content and select **Done**.
 
 #### Exercise 2 - Rewrite a section
 
 After reviewing your draft, you may find sections that need adjustment. The Product Description is a good candidate—it tends to be short and technical in a first draft.
 
-1. Select the Product Description paragraph(s). The **Copilot** icon appears in the left margin of your document — select it.
+1. Select the Product Description paragraph(s). The **Edit with Copilot** option appears in the context menu that appears — select it.
 
 1. Enter the following prompt:
 
     +++Rewrite the Product Description section to be more detailed and engaging for a senior business audience. Keep the tone professional.+++
 
-1. Review the rewritten text. Select **Replace** to swap the original paragraph with the revised version.
+1. Review the rewritten text. Select **Done** to swap the original paragraph with the revised version.
 
 #### Exercise 3 - Convert text to a table
 
