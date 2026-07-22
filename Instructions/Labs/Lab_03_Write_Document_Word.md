@@ -56,17 +56,17 @@ While the Project Objectives are listed, converting them into a table allows lea
 
 Before sharing your report, use the Writing Coach agent to review the quality of your writing.
 
-1. Open the **Microsoft 365 Copilot app**.
+1. Open a browser and navigate to +++https://m365.cloud.microsoft+++ to open **Microsoft 365 Copilot**.
 
-1. In the **Agents** panel, select **Writing Coach**. If it doesn't appear, select **All agents** to search and add it.
+2. In the **Agents** panel, select **Writing Coach**. If it doesn't appear, select **All agents** to search and add it.
 
-1. Select a section of your Word document to review. The Executive Summary is a good starting point.
+3. Select a section of your Word document to review. The Executive Summary is a good starting point.
 
-1. Enter a focused question in Writing Coach, then paste the text from your Word document:
+4. Enter a focused question in Writing Coach, then paste the text from your Word document:
 
     +++Review this text for clarity and tone. Suggest specific improvements: [paste text]+++
 
-1. Review the feedback and apply the changes in your Word document.
+5. Review the feedback and apply the changes in your Word document.
 
 > [!NOTE]
 > Writing Coach addresses one question at a time. Ask one focused question per prompt for the most useful feedback.
