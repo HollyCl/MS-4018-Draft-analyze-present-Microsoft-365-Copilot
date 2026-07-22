@@ -63,19 +63,7 @@ To optimize your product offerings, you need to compare the sales of different c
 
 1. Copilot may ask for clarification to better define "summer." Enter your preference, then review the results.
 
-#### Exercise 4 - Calculate total sales
-
-Understanding total sales helps you evaluate the success of your sales strategies. Use Copilot to calculate the total sales for each quarter by adding Artisanal Chai Sales and Premade Chai Sales.
-
-1. Continue in the opened Copilot pane.
-
-1. Enter the following prompt:
-
-    +++Create a new sheet and calculate the total sales per quarter.+++
-
-1. Review the total sales.
-
-#### Exercise 5 - Forecast with Python
+#### Exercise 4 - Forecast with Python
 
 Copilot in Excel with Python lets you run statistical forecasts without writing code. Use this capability to predict future Artisanal Chai sales based on the monthly trends in your data.
 
@@ -89,7 +77,7 @@ Copilot in Excel with Python lets you run statistical forecasts without writing 
 
 1. Save your file. You'll use the updated version in the next exercise.
 
-#### Exercise 6 - Explore data with the Analyst agent
+#### Exercise 5 - Explore data with the Analyst agent
 
 The Analyst agent lets you ask questions about your data in a chat interface. In this exercise, you attach the sample file and ask a cross-metric question to see how the agent surfaces patterns that connect to your in-Excel analysis.
 
@@ -105,7 +93,7 @@ The Analyst agent lets you ask questions about your data in a chat interface. In
 
 1. Review the response. Notice how the Analyst agent surfaces comparisons and patterns from the same dataset you analyzed in Excel. This chat-based approach is especially useful when you're working across multiple files before building your workbook.
 
-#### Exercise 7 - Generate insights
+#### Exercise 6 - Generate insights
 
 Summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
 
