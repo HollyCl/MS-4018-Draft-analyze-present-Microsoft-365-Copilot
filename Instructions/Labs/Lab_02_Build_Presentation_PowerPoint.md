@@ -18,11 +18,13 @@ Throughout this lab, you craft prompts that reference these files. Download both
 
 Before you open PowerPoint, use Idea Coach to define your narrative. A focused planning prompt now produces a stronger first draft and requires less revision later.
 
-1. Open the **Microsoft 365 Copilot app** by navigating to +++https://m365.cloud.microsoft+++. Select **Idea Coach** from the left navigation pane. If it doesn't appear, select **More agents**, search and add it.
+1. Open the **Microsoft 365 Copilot** app by navigating to +++https://m365.cloud.microsoft+++. Select **Idea Coach** from the left navigation pane. If it doesn't appear, select **More agents**, then on the search bar type `Idea Coach`, select the agent and select **Add** to add it.
 
-1. Enter the following prompt:
+1. In the **Message Idea Coach** box, enter the following prompt:
 
-    +++I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.+++
+    ```prompt
+    I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.
+    ```
 
 1. Review the key messages and narrative structure Idea Coach returns. Keep this output visible so you can reference it when writing your creation prompt.
 
@@ -33,15 +35,17 @@ Before you open PowerPoint, use Idea Coach to define your narrative. A focused p
 
 With your narrative plan ready, create the presentation by referencing both source files. Specifying your output parameters in the prompt means Copilot builds to your requirements from the start.
 
-1. Open a blank PowerPoint presentation from your browser by navigating to +++https://powerpoint.new+++.
+1. Open a blank PowerPoint presentation from your browser by navigating to +++https://powerpoint.cloud.microsoft/new+++.
 
 1. Select the **Copilot** icon in the bottom-right corner of the canvas.
 
 1. Enter the following creation prompt:
 
-    +++Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.+++
+    ```prompt
+    Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.
+    ```
 
-1. Type `/` or select **+**, then **Add work content** to attach **Promotion Plan for Chai Tea in Latin America.docx**, then repeat to attach **Market Analysis Report for Mystic Spice Premium Chai Tea.docx**.
+1. Attach **Promotion Plan for Chai Tea in Latin America.docx** and **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** using **Add work content** (type `/` or select + → Add work content). Once both documents are attached, use them as the primary sources for the task.
 
 1. If Copilot asks clarifying questions, answer using the key messages from your Idea Coach session.
 

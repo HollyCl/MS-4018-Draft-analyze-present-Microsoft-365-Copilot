@@ -9,7 +9,7 @@ Imagine you're interviewing for an internal position at your company. You've bee
 
 Use Copilot Chat to gather information about the interviewer and their role at the company.
 
-1. Open the Microsoft 365 Copilot app by navigating to +++https://m365copilot.com+++ and signing in with your work account.
+1. Open the **Microsoft 365 Copilot** app by navigating to +++https://m365copilot.com+++ and signing in with your work account.
 
 1. Select **New chat** and start a conversation in the chat area.
 
@@ -86,7 +86,7 @@ Rather than copying your questions and answers elsewhere, save them as a Copilot
 
 After the interview, use Copilot Chat in the Outlook side pane to draft a thank you note so you stay in the same context as your inbox without switching apps.
 
-1. Go to `https://outlook.cloud.microsoft` and sign in with your work account.
+1. Go to +++https://outlook.cloud.microsoft+++ and sign in with your work account.
 
 1. Select **Create a new email** to create a new email draft, but don't enter any content yet.
 
