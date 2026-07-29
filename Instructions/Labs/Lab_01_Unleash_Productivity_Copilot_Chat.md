@@ -15,9 +15,8 @@ Use Copilot Chat to gather information about the interviewer and their role at t
 
 1. Enter the following prompt, replacing the placeholders with values from your company:
 
-    ```prompt
-    Find information about [Interviewer's Name] and their role at [Company Name].
-    ```
+    +++Find information about [Interviewer's Name] and their role at [Company Name].+++
+    
    > [!NOTE]
    > Replace `[Interviewer's Name]` with the name of the person who will be interviewing you, and `[Company Name]` with the name of your company.
 
@@ -29,9 +28,7 @@ Research the department you're applying to so you can speak to its priorities an
 
 1. In the same Copilot Chat conversation, enter:
 
-    ```prompt
-    Provide an overview of [department name] at [Company Name]. What are their current focus areas or recent initiatives?
-    ```
+    +++Provide an overview of [department name] at [Company Name]. What are their current focus areas or recent initiatives?+++
 
    > [!TIP]
    > Instead of prompting Copilot Chat directly, you can try the **Researcher** agent for this step. In the left navigation pane, select **Researcher**, then enter: *Research [Company Name]'s [department name]. Summarize their current priorities, recent news, and any publicly available strategic initiatives.* Researcher runs a multi-step research task across the web, synthesizes findings from multiple sources, and returns a more comprehensive briefing than a single-prompt response. Compare the two outputs to see the difference in depth.
@@ -46,9 +43,8 @@ Use Copilot to anticipate the questions you're likely to be asked, so you can pr
 
 1. Enter the following prompt:
 
-    ```prompt
-    Based on this department's focus areas, generate a list of likely interview questions for a [job title] role.
-    ```
+     +++Based on this department's focus areas, generate a list of likely interview questions for a [job title] role.+++
+
    > [!NOTE]
    > Replace `[job title]` with the title of the role you're applying for.
 
@@ -60,9 +56,7 @@ Use the questions Copilot generated to draft answers that reflect your experienc
 
 1. In the same Copilot Chat conversation, enter:
 
-    ```prompt
-    Draft concise answers for each of the questions in the previous response. Write in first person and focus on specific examples rather than general statements.
-    ```
+    +++Draft concise answers for each of the questions in the previous response. Write in first person and focus on specific examples rather than general statements.+++
 
 1. Review each answer. Continue to prompt and refine them to reflect your actual experience. Remember, Copilot's drafts are a starting point, not a final product, and your personal edits are critical.
 
@@ -95,9 +89,8 @@ After the interview, use Copilot Chat in the Outlook side pane to draft a thank 
 
 1. Enter the following prompt:
 
-    ```prompt
-    Draft a brief thank you note to [Interviewer's Name] following our interview today for the [job title] role at [Company Name]. Keep it professional and genuine, and limit it to three short paragraphs.
-    ```
+    +++Draft a brief thank you note to [Interviewer's Name] following our interview today for the [job title] role at [Company Name]. Keep it professional and genuine, and limit it to three short paragraphs.+++
+    
 
    > [!NOTE]
    > Replace `[Interviewer's Name]` with the name of the person who interviewed you, `[job title]` with the title of the role you applied for, and `[Company Name]` with the name of your company.

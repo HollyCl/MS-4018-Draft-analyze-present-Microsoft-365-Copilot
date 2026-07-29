@@ -22,9 +22,7 @@ Before you open PowerPoint, use Idea Coach to define your narrative. A focused p
 
 1. In the **Message Idea Coach** box, enter the following prompt:
 
-    ```prompt
-    I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.
-    ```
+    +++I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.+++
 
 1. Review the key messages and narrative structure Idea Coach returns. Keep this output visible so you can reference it when writing your creation prompt.
 
@@ -41,9 +39,7 @@ With your narrative plan ready, create the presentation by referencing both sour
 
 1. Enter the following creation prompt:
 
-    ```prompt
-    Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.
-    ```
+    +++Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.+++
 
 1. Attach **Promotion Plan for Chai Tea in Latin America.docx** and **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** using **Add work content** (type `/` or select + → Add work content). Once both documents are attached, use them as the primary sources for the task.
 
@@ -65,7 +61,12 @@ Generate notes for every slide at once, then refine the CFO-facing slides for de
 
     +++Rewrite the speaker notes on this slide to sound authoritative and data-focused. I'm presenting market opportunity and return on investment figures to a CFO who asks hard questions. Help me project confidence and anticipate pushback.+++
 
-1. Review the revised notes.
+1. Display the speaker notes by using one of the following options:
+
+    - In the status bar, on the bottom, select **Notes**.
+    - On the ribbon, select **View** → **Notes**.
+
+1. Review the revised speaker notes that Copilot generated.
 
 #### Exercise 4 - Review a chart with an explain prompt
 
