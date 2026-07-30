@@ -4,7 +4,7 @@ Throughout these labs, we'll be crafting prompts for Microsoft 365 Copilot that 
 
 - [Promotion Plan for Chai Tea in Latin America.docx](https://go.microsoft.com/fwlink/?linkid=2269126)
 - [Market Analysis Report for Mystic Spice Premium Chai Tea.docx](https://go.microsoft.com/fwlink/?linkid=2268826)
-- [Contoso Chai Tea market trends 2023.xlsx](https://go.microsoft.com/fwlink/?linkid=2268822)
+- [Contoso Chai Tea market trends.xlsx](https://go.microsoft.com/fwlink/?linkid=2268822)
 
 To ensure that these files are accessible later on by Microsoft 365 Copilot, we'll first upload them to OneDrive.
 
