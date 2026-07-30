@@ -11,27 +11,29 @@ You'll start by getting an overview of the data and identifying key metrics. Nex
 
 Throughout this lab, you craft prompts for Microsoft 365 Copilot that reference this file. Download and save the following file to your OneDrive folder before you continue.
 
-[Contoso Chai Tea market trends 2023.xlsx](https://go.microsoft.com/fwlink/?linkid=2268822)
+[Contoso Chai Tea market trends.xlsx](https://go.microsoft.com/fwlink/?linkid=2268822)
 
 #### Exercise 1 - Explore the data
 
 To get an idea of market trends, you must first understand the overall performance of Contoso's Chai products. Your first step is to get an overview of the data and identify key metrics that can guide your analysis.
 
-1. Open the sample file (Contoso Chai Tea market trends 2023.xlsx) you uploaded to your OneDrive.
+1. Open the sample file (**Contoso Chai Tea market trends.xlsx**) you uploaded to your OneDrive.
 
-1. Open the Copilot pane.
+1. Select the Copilot icon in the bottom-right corner of the Excel window.
 
-1. Enter the following prompt:
+1. Make sure **Allow editing** is selected.
+
+1. Enter and submit the following prompt in the Copilot pane:
 
     +++Summarize the dataset and provide an overview of the key metrics.+++
 
-    Copilot responds with a detailed set of important takeaways, essentially an executive summary, of the data. It shows patterns and interpretations of the data, and recommended next steps. From this response, you can prompt Copilot to:
+    Copilot may create a new sheet with a detailed set of important takeaways, essentially an executive summary of the data. The response highlights patterns and interpretations of the data and may suggest potential next steps. From this response, you can prompt Copilot to:
 
     +++Create a new sheet with a table showing the key patterns in the data.+++
 
-    Copilot creates a table containing an additional column that shows key patterns.
+    Copilot creates a table that summarizes key patterns in the data.
 
-1. Review the table.
+1. Review the table that Copilot generated.
 
 #### Exercise 2 - Identify sales trends
 
@@ -39,11 +41,11 @@ As a sales manager, you need to identify trends in the sales data to make inform
 
 1. Continue in the opened Copilot pane.
 
-1. Enter the following prompt:
+1. Enter and submit the following prompt:
 
     +++Create a new sheet with a line chart of Total Chai Sales (units) over the months.+++
 
-1. Review the chart.
+1. Review the chart of Total Chai Sales (units) over the months.
 
 #### Exercise 3 - Compare product sales
 
@@ -51,31 +53,31 @@ To optimize your product offerings, you need to compare the sales of different c
 
 1. Continue in the opened Copilot pane.
 
-1. Enter the following prompt:
+1. Enter and submit the following prompt:
 
     +++Create a new sheet with a bar chart comparing Artisanal Chai Sales (units) and Premade Chai Sales (units) for each month.+++
 
     Copilot creates a new sheet and inserts the chart in your Excel workbook.
 
-1. Summer months often show wide variance in sales. Enter the following prompt to compare product performance:
+1. Summer months often show wide variance in sales. Enter and submit the following prompt to compare product performance:
 
     +++Summarize the total sales (units) for Artisanal Chai and Premade Chai over the summer.+++
 
-1. Copilot may ask for clarification to better define "summer." Enter your preference, then review the results.
+1. Copilot may ask for clarification to better define "summer." Enter your preference, then review the results. Keep the Copilot pane open for the next exercise.
 
 #### Exercise 4 - Forecast with Python
 
 Copilot in Excel with Python lets you run statistical forecasts without writing code. Use this capability to predict future Artisanal Chai sales based on the monthly trends in your data.
 
-1. In the Copilot pane, enter the following prompt:
+1. In the Copilot pane, enter and submit the following prompt:
 
     +++Predict next quarter's Artisanal and Premade Chai sales using the best forecasting method based on historical performance, and include model diagnostics.+++
 
-    Copilot generates Python code, executes it on the grid, and returns a forecast with a supporting chart.
+    Copilot generates Python code, executes it on the grid, and returns a new forecast sheet with a supporting chart.
 
-1. Review Copilot's response and the forecast results.
+1. Review Copilot's response and the forecast results. Select **Done** to confirm the changes.
 
-1. Save your file. You'll use the updated version in the next exercise.
+1. Confirm that your file is saved. You'll use the updated version in the next exercise.
 
 #### Exercise 5 - Explore data with the Analyst agent
 
@@ -83,11 +85,11 @@ The Analyst agent lets you ask questions about your data in a chat interface. In
 
 1. Open a browser and navigate to +++https://m365.cloud.microsoft+++.
 
-1. In the left navigation, select **Analyst**.
+1. In the left navigation, select the **Analyst** agent.
 
-1. Select the **+** icon and attach the **Contoso Chai Tea market trends 2023.xlsx** file from your OneDrive.
+1. Select the **+** icon and attach the **Contoso Chai Tea market trends.xlsx** file from your OneDrive.
 
-1. Enter the following prompt:
+1. Enter and submit the following prompt:
 
     +++Compare Artisanal Chai and Premade Chai sales performance across the year and identify which product showed stronger growth.+++
 
@@ -97,7 +99,7 @@ The Analyst agent lets you ask questions about your data in a chat interface. In
 
 Summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
 
-1. In the opened Copilot Analyst agent pane, enter the following prompt:
+1. In the opened Copilot Analyst agent pane, enter and submit the following prompt:
 
     +++Provide a summary of the top 5 key insights from the analysis of the Contoso Chai Tea market trends data.+++
 
