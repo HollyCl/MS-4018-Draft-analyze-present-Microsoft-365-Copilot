@@ -77,7 +77,7 @@ Copilot in Excel with Python lets you run statistical forecasts without writing 
 
 1. Review Copilot's response and the forecast results. Select **Done** to confirm the changes.
 
-1. Verify that your changes are saved. You'll use the updated version in the next exercise.
+1. Confirm that your file is saved. You'll use the updated version in the next exercise.
 
 #### Exercise 5 - Explore data with the Analyst agent
 
@@ -85,7 +85,7 @@ The Analyst agent lets you ask questions about your data in a chat interface. In
 
 1. Open a browser and navigate to +++https://m365.cloud.microsoft+++.
 
-1. In the left navigation, select **Analyst**.
+1. In the left navigation, select the **Analyst** agent.
 
 1. Select the **+** icon and attach the **Contoso Chai Tea market trends.xlsx** file from your OneDrive.
 
@@ -99,7 +99,7 @@ The Analyst agent lets you ask questions about your data in a chat interface. In
 
 Summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
 
-1. In the opened Copilot Analyst agent pane, enter the following prompt:
+1. In the opened Copilot Analyst agent pane, enter and submit the following prompt:
 
     +++Provide a summary of the top 5 key insights from the analysis of the Contoso Chai Tea market trends data.+++
 
