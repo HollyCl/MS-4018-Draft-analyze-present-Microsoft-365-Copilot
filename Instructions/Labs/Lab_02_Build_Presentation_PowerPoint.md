@@ -1,6 +1,6 @@
 # Lab 2 - Build a presentation from start to finish with Copilot in PowerPoint
 
-Imagine you're a senior marketing manager at Contoso. Your team is preparing for an executive meeting where you need to present the company's strategy for a new Chai Tea product line to be sold in Latin America. Your audience includes regional vice presidents and a CFO who expects data-backed recommendations. You have a business plan and a separate market research report to draw from. Your goal is to produce a polished, data-informed presentation efficiently without starting from scratch.
+Imagine you're a senior marketing manager at Contoso. Your team is preparing for an executive meeting in which you need to present the company's strategy for a new Chai Tea product line to be sold in Latin America. Your audience includes regional vice presidents and a CFO who expects data-backed recommendations. You have a business plan and a separate market research report to draw from. Your goal is to produce a polished, data-informed presentation efficiently without starting from scratch.
 
 By the end of this lab, you plan a narrative with Idea Coach, create a presentation from two source files with specific output parameters, generate and refine speaker notes for a CFO audience, use the Explain feature to review a chart, and complete a final coaching pass with Copilot in PowerPoint.
 
@@ -18,22 +18,22 @@ Throughout this lab, you craft prompts that reference these files. Download both
 
 Before you open PowerPoint, use Idea Coach to define your narrative. A focused planning prompt now produces a stronger first draft and requires less revision later.
 
-1. Open the **Microsoft 365 Copilot app** by navigating to +++https://m365.cloud.microsoft+++. Select **Idea Coach** from the left navigation pane. If it doesn't appear, select **More agents**, search and add it.
+1. Open the **Microsoft 365 Copilot** app by navigating to +++https://m365.cloud.microsoft+++. Select **Idea Coach** from the left navigation pane. If it doesn't appear, select **More agents**, then in the search bar, type `Idea Coach`, select the agent, and select **Add** to add it.
 
-1. Enter the following prompt:
+1. In the **Message Idea Coach** box, enter the following prompt:
 
     +++I need to present a Chai Tea product strategy for Latin America to regional vice presidents and a CFO. The CFO focuses on return on investment and market opportunity. Identify three to four key messages and suggest a narrative arc for an eight-slide executive presentation.+++
 
 1. Review the key messages and narrative structure Idea Coach returns. Keep this output visible so you can reference it when writing your creation prompt.
 
 > [!NOTE]
-> Idea Coach doesn't create the deck for you. Idea Coach's strength comes in helping you develop your own ideas into actions. Continue to interact with Idea Coach until you find a good starting point.
+> Idea Coach doesn't create the deck for you. Idea Coach's strength lies in helping you develop your own ideas into actions. Continue to interact with Idea Coach until you find a good starting point.
 
 #### Exercise 2 - Create a presentation from multiple sources
 
 With your narrative plan ready, create the presentation by referencing both source files. Specifying your output parameters in the prompt means Copilot builds to your requirements from the start.
 
-1. Open a blank PowerPoint presentation from your browser by navigating to +++https://powerpoint.new+++.
+1. Open a blank PowerPoint presentation from your browser by navigating to +++https://powerpoint.cloud.microsoft/new+++.
 
 1. Select the **Copilot** icon in the bottom-right corner of the canvas.
 
@@ -41,7 +41,7 @@ With your narrative plan ready, create the presentation by referencing both sour
 
     +++Create an 8-slide executive presentation on Contoso's Chai Tea strategy for Latin America. Use the Promotion Plan document for the business strategy and recommended actions. Pull market opportunity data and regional trends from the Market Analysis Report document to support the market slides. Tone: executive—confident and data-driven. Audience: regional VPs and a CFO who value brevity and clear return on investment framing.+++
 
-1. Type `/` or select **+**, then **Add work content** to attach **Promotion Plan for Chai Tea in Latin America.docx**, then repeat to attach **Market Analysis Report for Mystic Spice Premium Chai Tea.docx**.
+1. Attach **Promotion Plan for Chai Tea in Latin America.docx** and **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** using **Add work content** (type `/` or select + → Add work content). Once both documents are attached, use them as the primary sources for the task.
 
 1. If Copilot asks clarifying questions, answer using the key messages from your Idea Coach session.
 
@@ -61,7 +61,12 @@ Generate notes for every slide at once, then refine the CFO-facing slides for de
 
     +++Rewrite the speaker notes on this slide to sound authoritative and data-focused. I'm presenting market opportunity and return on investment figures to a CFO who asks hard questions. Help me project confidence and anticipate pushback.+++
 
-1. Review the revised notes.
+1. Display the speaker notes by using one of the following options:
+
+    - In the status bar at the bottom, select **Notes**.
+    - On the ribbon, select **View** → **Notes**.
+
+1. Review the revised speaker notes that Copilot generated.
 
 #### Exercise 4 - Review a chart with an explain prompt
 

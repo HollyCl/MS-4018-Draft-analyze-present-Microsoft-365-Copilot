@@ -11,10 +11,14 @@ Before scheduling the meeting, you want to share context and set expectations wi
 
 1. Open Microsoft Teams by navigating to +++https://teams.cloud.microsoft+++.
 
-1. Create a new team for this lab. Select **New Team** from the **Chat** dropdown menu and configure it as follows:
+1. If the **Get to know Teams** dialog appears, select **Get Started** and close the dialog.
+
+1. In **Chat**, select **See all your teams**.
+
+1. Select **Create team**, and configure the new team as follows:
     - Team name: +++Contoso Connect Launch+++
     - Description: leave blank
-    - Team Type: **Private**
+    - Team type and sensitivity: **Private**, **None**
     - First channel name: +++Launch Planning+++
 
 1. Select **Create**, then select **Skip** when prompted to add members.
@@ -25,21 +29,19 @@ Before scheduling the meeting, you want to share context and set expectations wi
 
     +++Hi team! As we gear up for the Contoso Connect product launch, I want to make sure we're all aligned on priorities. I have a few ideas to share and I'd love to hear your thoughts on what will resonate most with our customers.+++
 
-1. Before posting, select the  Pen (**Rewrite with Copilot**) icon below the message box.
+1. Before posting, select the Pen (**Rewrite with Copilot**) icon below the message box.
 
 1. Select **Rewrite** to generate an improved version. Use the left and right arrows to review alternate versions.
 
-1. Select **Adjust**, then choose **Make it sound enthusiastic** to change the tone.
+1. Select **Adjust**, then under **Make it sound** choose **Enthusiastic** to change the tone of the message.
 
-1. Select **Adjust**, then choose **Custom** and enter the following instruction:
+1. Copilot provides each update as a separate version. Use the left and right arrows to review the versions, and select the one you prefer.
 
-    +++Make this sound energizing and forward-looking for a product team.+++
-
-1. Notice that Copilot proivides each update as its own option. Scroll through and determine which version of the response you most like, and When you're satisfied with the result, select **Replace**, then select **Post**.
+1. Select **Replace**, and then select **Post** to publish the message.
 
 #### Exercise 2 - Build channel context and summarize the thread
 
-Copilot can summarize a channel thread to help you catch up on what was discussed. In this exercise, you'll add a few messages to build some context, then use Copilot to get a quick overview.
+Channel Agent can summarize a channel thread to help you catch up on what was discussed. In this exercise, you'll add a few messages to build some context, then use Channel Agent to get a quick overview.
 
 1. With the **Launch Planning** channel still open, post two or three additional messages to build out the thread. For example:
 
@@ -47,13 +49,17 @@ Copilot can summarize a channel thread to help you catch up on what was discusse
     - +++Early access pricing worked well for our last launch — we should revisit that.+++
     - +++I'll reach out to marketing about the collateral timeline. Can someone check on demo environment availability?+++
 
-1. After posting the messages, select the **Copilot** icon at the top of the channel thread.
+1. After posting the messages, select the **Open agents and bots** icon at the top-right of the channel.
+
+1. In the **Agents and bots** pane, next to **Channel Agent**, select **Add**.
+
+1. In the Channel Agent post, select **Ask me a question**.
 
 1. Enter the following prompt:
 
     +++What ideas and open questions came up in this thread?+++
 
-1. Review the summary. Notice the numbered citations next to each statement — select one to jump to the source message in the thread.
+1. Review the summary. Select a numbered citation to view the source message in the channel.
 
 1. Enter a follow-up prompt:
 
@@ -73,20 +79,20 @@ Now you'll create the meeting invite in Outlook, add an agenda, and turn on Faci
 
 1. Make sure **Teams meeting** is toggled on.
 
-1. In the meeting description, type a short agenda using the topics Copilot surfaced in Exercise 2. For example:
+1. In the meeting description, type a short agenda using the topics Channel Agent surfaced in Exercise 2. For example:
 
     +++Agenda: Customer engagement ideas (10 min), Launch timeline review (15 min), Demo environment check (5 min), Task assignments (10 min), Wrap-up (5 min)+++
 
     > [!TIP]
-    > You can also let Copilot draft this for you. In the event form, open the Copilot pane and enter: *Draft a meeting description for a product launch planning session covering customer engagement ideas, timeline review, and task assignments.*
+    > You can also let Copilot draft this for you. Select the Copilot icon in the upper-right corner of the New event window, and enter: *Draft a meeting description for a product launch planning session covering customer engagement ideas, timeline review, and task assignments.*
 
-1. Select **Options** to open the full event form.
+1. Select **Options** to open the **Meeting options** dialog.
 
-2. Under **Copilot and other AI**, confirm **Allow Copilot** is set to **During and after the meeting**.
+1. Under **Copilot and other AI**, confirm **Allow Copilot and Facilitator** is set to **During and after the meeting**.
 
-3. Turn on the **Facilitator** toggle, then select **Apply**.
+1. Turn on the **Facilitator** toggle, then select **Apply**.
 
-4. Save the invite.
+1. Select **Save** to save the invite.
 
     When at least one non-organizer participant joins the meeting, Facilitator automatically posts the agenda to the meeting chat and displays a timer on the meeting stage.
 
@@ -98,8 +104,8 @@ With the event created, use Copilot to review context and get ready before you j
 
 1. Look for the **Prepare for this meeting** section near the top of the event form. Select **Show more** to see the summary Copilot has assembled from related emails, documents, and chat history.
 
-    > [!NOTE]
-    > In a fresh environment with no prior email history or shared files connected to this meeting, this section may show limited or even no results. That's expected — the summary improves as more context accumulates over time. If no results exist, you can consider this lab complete at this time.
+   > [!NOTE]
+   > In a fresh environment with no prior email history, chat activity, or shared files connected to the meeting, the **Prepare for this meeting** section may not appear or may display limited results. This is expected behavior. Copilot generates meeting preparation content only when sufficient context is available. If the section isn't displayed, consider this lab complete.
 
 1. Select one of the suggested prompts, or enter your own in the Copilot chat pane:
 
