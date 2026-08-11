@@ -1,144 +1,107 @@
----
-lab:
-  title: 'Lab 5: Boost your productivity with data-driven decisions with Copilot in Excel'
-  description: Microsoft 365 Copilot – See how Copilot in Excel empowers you to explore and analyze sales data.
-  level: Lab 100
-  duration: '30'
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Lab 5 - Boost your productivity with data-driven decisions with Copilot in Excel
 
-Imagine you're a sales manager at Contoso. Your primary responsibility is to analyze sales data and identify trends that can help improve the company's performance. In this hands-on Lab, you'll use Copilot in Excel to explore and analyze various aspects of the sales data for Contoso's Chai products.
+Imagine you're a sales manager at Contoso. Your primary responsibility is to analyze sales data and identify trends that can help improve the company's performance. In this hands-on lab, you'll use Copilot in Excel to explore and analyze various aspects of the sales data for Contoso's Chai products.
 
-You'll start by getting an overview of the data and identifying key metrics. Next, you'll analyze sales trends, compare product sales, and calculate total sales. Additionally, you'll examine the relationship between social media engagement and chai sales, and identify any correlations between online searches and sales. Finally, you'll generate insights from your analysis and summarize the key findings.
+You'll start by getting an overview of the data and identifying key metrics. Next, you'll analyze sales trends, compare product sales, and calculate total sales. Then, you'll use Copilot in Excel with Python to forecast future Artisanal Chai sales and explore the data with the Analyst agent. Finally, you'll generate insights from your analysis and share key findings with your team.
+
+> [!NOTE]
+> To fully complete this lab, you must have a OneDrive account or access to SharePoint.
 
 ### Sample file
 
-Throughout this Lab, we'll craft prompts for Microsoft 365 Copilot that reference this file. You should have already uploaded it to OneDrive during the lab setup process, but if you need to download it again, you can do so here:
+Throughout this lab, you craft prompts for Microsoft 365 Copilot that reference this file. Download and save the following file to your OneDrive folder before you continue.
 
 [Contoso Chai Tea market trends 2023.xlsx](https://go.microsoft.com/fwlink/?linkid=2268822)
 
 #### Exercise 1 - Explore the data
 
-To get an idea of market trends, you must first understand  the overall performance of Contoso's Chai products. Your first step is to get an overview of the data and identify key metrics that can guide your analysis.
+To get an idea of market trends, you must first understand the overall performance of Contoso's Chai products. Your first step is to get an overview of the data and identify key metrics that can guide your analysis.
 
 1. Open the sample file (Contoso Chai Tea market trends 2023.xlsx) you uploaded to your OneDrive.
 
-1. Select the **Copilot** icon on the far right of the **Home** tab. 
-
-1. In the **Copilot** pane, enter the following prompt:
-
-    +++Summarize the dataset and provide an overview of the key metrics.+++
-
-1. Select **Send**.
-
-1. Copilot responds with a detailed set of important takeaways, essentially an executive summary, of the data. It shows patterns and interpretations of the data, and recommended next steps. From this response, you can prompt Copilot to:
-
-    +++Create a table showing the key patterns in the data.+++
-
-1. Select **Send**.
-
-1. Copilot creates a table containing an additional column that shows key patterns.
-
-1. Select **+ Add to new sheet** to include this data in your Excel workbook.
-
-1. Review the table. When you finish, return to **Sheet 1**.
-
-#### Exercise 2 - Identify sales trends
-
-As a sales manager, you need to identify trends in the sales data to make informed decisions. Let's look at the total chai sales over the year and look for any patterns or trends that can help improve sales strategies.
-
-1. Continue in the opened **Copilot** pane.
-
-1. Prompt Copilot with:
-
-    +++Show a line chart of Total Chai Sales (units) over the months.+++
-
-1. Select **Send**.
-
-1. Review Copilot's response, which includes both the chart and text summary, and if you want, add the line chart to a new sheet.
-
-1. If you added the line chart, review the chart then return to **Sheet 1**.
-
-#### Exercise 3 - Compare product sales
-
-To optimize your product offerings, you need to compare the sales of different chai products. Copilot can help you to easily compare the sales of Artisanal Chai and Premade Chai to determine which product category performed better overall.
-
-1. Continue in the opened **Copilot** pane.
-
-1. Prompt Copilot with:
-
-    +++Create a bar chart comparing Artisanal Chai Sales (units) and Premade Chai Sales (units) for each month.+++
-
-1. Select **Send**.
-
-1. Copilot displays the bar chart. Note that Copilot also provides text insights in its response. Select **Add to new sheet** to include the chart in your Excel workbook.
-
-1. Once you've reviewed the bar chart results, return to **Sheet 1**.
-
-1. Summer months can see a wide variance of sales. To understand what type of tea is selling best, you can ask Copilot to determine which product category performed better overall by entering the following prompt:
-
-   +++Summarize the total sales (units) for Artisanal Chai and Premade Chai over the summer.+++
-
-1. Select **Send**
-
-1. Review Copilot's response.
-
-#### Exercise 4 - Calculate total sales
-
-Understanding the total sales is crucial for evaluating the success of your sales strategies. Let's ask Copilot to calculate the total sales for each quarter by adding Artisanal Chai Sales and Premade Chai Sales.
-
-1. Continue in the opened **Copilot** pane.
-
-1. Prompt Copilot with:
-
-    +++Calculate the total sales per quarter.+++
-
-1. Select **Send**.
-
-1. Select **Add to new sheet**.
-
-1. Review the total sales, then return to **Sheet 1**.
-
-#### Exercise 5 - Generate insights
-
-Finally, let's summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
-
-1. In the opened **Copilot** pane, enter the following prompt:
-
-    +++Provide a summary of the key insights from the analysis of the Contoso Chai Tea market trends data.+++
-
-1. Select **Send**.
-
-1. Review Copilot's response.
-
-#### Exercise 6 - Send your insights to the team
-
-Once you collect insights on market trends, you can share the information with your stakeholders. Here's how Copilot in Outlook can help you:
-
-1. **Copy** the text response generated by Copilot in Excel by highlighting the text and selecting the **Copy** icon below the response.
-
-1. Open **Microsoft Edge** and navigate to +++https://outlook.office.com+++.
-
-1. Select **New email**.
-
-1. Paste the response into the email body.
-
-1. Select the area below the pasted content, then select the **Open Copilot** icon that appears.
+1. Open the Copilot pane.
 
 1. Enter the following prompt:
 
-    +++Draft an email to my team summarizing the key points from our recent analysis on Contoso Chai Tea market trends.+++
+    +++Summarize the dataset and provide an overview of the key metrics.+++
 
-1. Select **Generate**.
+    Copilot responds with a detailed set of important takeaways, essentially an executive summary, of the data. It shows patterns and interpretations of the data, and recommended next steps. From this response, you can prompt Copilot to:
 
-1. Review the draft provided by Copilot and select **Replace** to include the content in your email.
+    +++Create a new sheet with a table showing the key patterns in the data.+++
 
-When working in your own environment, you would then send the email to your stakeholders.
+    Copilot creates a table containing an additional column that shows key patterns.
+
+1. Review the table.
+
+#### Exercise 2 - Identify sales trends
+
+As a sales manager, you need to identify trends in the sales data to make informed decisions. Review the total chai sales over the year to identify patterns and trends that can inform your sales strategy.
+
+1. Continue in the opened Copilot pane.
+
+1. Enter the following prompt:
+
+    +++Create a new sheet with a line chart of Total Chai Sales (units) over the months.+++
+
+1. Review the chart.
+
+#### Exercise 3 - Compare product sales
+
+To optimize your product offerings, you need to compare the sales of different chai products. Copilot can help you compare the sales of Artisanal Chai and Premade Chai to determine which product category performed better overall.
+
+1. Continue in the opened Copilot pane.
+
+1. Enter the following prompt:
+
+    +++Create a new sheet with a bar chart comparing Artisanal Chai Sales (units) and Premade Chai Sales (units) for each month.+++
+
+    Copilot creates a new sheet and inserts the chart in your Excel workbook.
+
+1. Summer months often show wide variance in sales. Enter the following prompt to compare product performance:
+
+    +++Summarize the total sales (units) for Artisanal Chai and Premade Chai over the summer.+++
+
+1. Copilot may ask for clarification to better define "summer." Enter your preference, then review the results.
+
+#### Exercise 4 - Forecast with Python
+
+Copilot in Excel with Python lets you run statistical forecasts without writing code. Use this capability to predict future Artisanal Chai sales based on the monthly trends in your data.
+
+1. In the Copilot pane, enter the following prompt:
+
+    +++Predict next quarter's Artisanal and Premade Chai sales using the best forecasting method based on historical performance, and include model diagnostics.+++
+
+    Copilot generates Python code, executes it on the grid, and returns a forecast with a supporting chart.
+
+1. Review Copilot's response and the forecast results.
+
+1. Save your file. You'll use the updated version in the next exercise.
+
+#### Exercise 5 - Explore data with the Analyst agent
+
+The Analyst agent lets you ask questions about your data in a chat interface. In this exercise, you attach the sample file and ask a cross-metric question to see how the agent surfaces patterns that connect to your in-Excel analysis.
+
+1. Open a browser and navigate to +++https://m365.cloud.microsoft+++.
+
+1. In the left navigation, select **Analyst**.
+
+1. Select the **+** icon and attach the **Contoso Chai Tea market trends 2023.xlsx** file from your OneDrive.
+
+1. Enter the following prompt:
+
+    +++Compare Artisanal Chai and Premade Chai sales performance across the year and identify which product showed stronger growth.+++
+
+1. Review the response. Notice how the Analyst agent surfaces comparisons and patterns from the same dataset you analyzed in Excel. This chat-based approach is especially useful when you're working across multiple files before building your workbook.
+
+#### Exercise 6 - Generate insights
+
+Summarize the key insights from your analysis. These insights help you make data-driven decisions to drive sales growth at Contoso.
+
+1. In the opened Copilot Analyst agent pane, enter the following prompt:
+
+    +++Provide a summary of the top 5 key insights from the analysis of the Contoso Chai Tea market trends data.+++
+
+1. Review the summary. You can use this text to get your team up to speed more quickly.
 
 You now have hands-on experience using Copilot in Excel to analyze market trends, identify patterns, and generate valuable insights from your data. Continue trying new prompts in your Excel files to gain more practice.
 
