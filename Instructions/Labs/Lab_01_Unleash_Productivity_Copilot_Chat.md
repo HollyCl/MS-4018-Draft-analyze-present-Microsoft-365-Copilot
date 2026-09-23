@@ -61,7 +61,7 @@ Use Copilot to anticipate the questions you're likely to be asked, so you can pr
 
 1. Enter the following prompt:
 
-     ```prompt
+    ```prompt
     Based on this department's focus areas, generate a list of likely interview questions for a [job title] role.
     ```
 
@@ -112,7 +112,7 @@ After the interview, use Copilot Chat in the Outlook side pane to draft a thank 
 1. Enter the following prompt:
 
     ```prompt
-   Draft a brief thank you note to [Interviewer's Name] following our interview today for the [job title] role at [Company Name]. Keep it professional and genuine, and limit it to three short paragraphs.
+    Draft a brief thank you note to [Interviewer's Name] following our interview today for the [job title] role at [Company Name]. Keep it professional and genuine, and limit it to three short paragraphs.
     ```
 
    > [!NOTE]
